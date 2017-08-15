@@ -1,4 +1,4 @@
-package com.test.java.aggregate;
+package com.test.java.pojo;
 
 import java.time.LocalDate;
 
@@ -10,6 +10,8 @@ public class Person {
 	LocalDate birthdate;
 	Sex gender;
 	String emailAddress;
+	int age;
+	
 	
 	public String getName() {
 		return name;
@@ -35,6 +37,14 @@ public class Person {
 	public void setEmailAddress(String emailAddress) {
 		this.emailAddress = emailAddress;
 	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	
 	
 	
 
